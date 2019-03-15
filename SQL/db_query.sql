@@ -14,7 +14,7 @@ CREATE TABLE datas
 	id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
     user_name VARCHAR(256) NOT NULL,
     ip INT NOT NULL,
-    humidity INT NOT NULL,
+    humidity VARCHAR(128) NOT NULL,
     water_date DATETIME NOT NULL
 );
 CREATE TABLE devices
